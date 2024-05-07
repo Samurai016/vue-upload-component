@@ -780,7 +780,7 @@ export default {
           if (typeof extensions === 'string') {
             extensions = extensions.split(',').map(value => value.trim()).filter(value => value)
           }
-          extensions = new RegExp('\.(' + extensions.join('|').replace(/\./g, '\\.') + ')$', 'i')
+          extensions = new RegExp('.(' + extensions.join('|').replace(/\./g, '\\.') + ')$', 'i')
         }
         if (file.name.search(extensions) === -1) {
           return Promise.reject('extension')

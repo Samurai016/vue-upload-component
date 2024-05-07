@@ -1478,7 +1478,7 @@
                 return value;
               });
             }
-            extensions = new RegExp('\.(' + extensions.join('|').replace(/\./g, '\\.') + ')$', 'i');
+            extensions = new RegExp('.(' + extensions.join('|').replace(/\./g, '\\.') + ')$', 'i');
           }
           if (file.name.search(extensions) === -1) {
             return Promise.reject('extension');
@@ -2100,7 +2100,7 @@
   /* style */
   var __vue_inject_styles__$1 = function __vue_inject_styles__(inject) {
     if (!inject) return;
-    inject("data-v-558403b4_0", { source: ".file-uploads{overflow:hidden;position:relative;text-align:center;display:inline-block}.file-uploads.file-uploads-html4 input,.file-uploads.file-uploads-html5 label{background:#fff;opacity:0;font-size:20em;z-index:1;top:0;left:0;right:0;bottom:0;position:absolute;width:100%;height:100%}.file-uploads.file-uploads-html4 label,.file-uploads.file-uploads-html5 input{background:rgba(255,255,255,0);overflow:hidden;position:fixed;width:1px;height:1px;z-index:-1;opacity:0}", map: undefined, media: undefined });
+    inject("data-v-eddda048_0", { source: ".file-uploads{overflow:hidden;position:relative;text-align:center;display:inline-block}.file-uploads.file-uploads-html4 input,.file-uploads.file-uploads-html5 label{background:#fff;opacity:0;font-size:20em;z-index:1;top:0;left:0;right:0;bottom:0;position:absolute;width:100%;height:100%}.file-uploads.file-uploads-html4 label,.file-uploads.file-uploads-html5 input{background:rgba(255,255,255,0);overflow:hidden;position:fixed;width:1px;height:1px;z-index:-1;opacity:0}", map: undefined, media: undefined });
   };
   /* scoped */
   var __vue_scope_id__$1 = undefined;
